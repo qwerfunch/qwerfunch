@@ -1,4 +1,4 @@
-# Jungsoo Kim, Ph.D. / qwerfunch
+Jungsoo Kim, Ph.D. / qwerfunch
 
 **Security R&D Lead | Architecting Autonomous Defenses & AI Agents**
 
