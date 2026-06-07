@@ -2,7 +2,7 @@ Jungsoo Kim, Ph.D. / qwerfunch
 
 **Security R&D Lead | Architecting Autonomous Defenses & AI Agents**
 
-From reverse engineering to multi-agent architectures, I build autonomous systems that push the boundaries of security analysis.
+From reverse engineering to multi-agent architectures, I'm building autonomous systems that push the boundaries of security analysis.
 
 #### Expertise
 * **Agentic VAPT:** Autonomous offensive security, intelligent threat modeling
