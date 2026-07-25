@@ -1,67 +1,70 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-light.svg" width="100%" alt="Jungsoo Kim, Ph.D. — Security R&amp;D Lead researching and building AI agents and autonomous systems">
+  <img src="./assets/hero-light.svg" width="100%" alt="Jungsoo Kim, Ph.D. — Security R&amp;D Lead. Autonomous systems that have to prove what they did.">
 </picture>
 
 <p align="center">
-  <a href="#research-focus">Research Focus</a> ·
-  <a href="#flagship-open-system">Flagship</a> ·
-  <a href="#related-open-work">Open Work</a> ·
-  <a href="#current-research-direction">Research Direction</a> ·
+  <a href="#research-program">Research Program</a> ·
+  <a href="#work">Work</a> ·
+  <a href="#focus">Focus</a> ·
+  <a href="#elsewhere">Elsewhere</a> ·
   <a href="#contact">Contact</a>
 </p>
 
-I work across **security research** and **software engineering**—from reverse engineering and Android runtime analysis to AI agents, multi-agent architectures, and autonomous systems.
+I lead security R&D—reverse engineering, Android runtime analysis, RASP, code protection—and build autonomous systems on the other side of that work. Increasingly they are the same problem.
 
-## Research Focus
+## Research Program
+
+> **The question.** How can an autonomous system—one that writes code, or one that defends it—act with enough traceability, containment, and proof to be trusted?
+
+**The bet.** Define consistency precisely enough that it can be falsified. Build something that enforces it mechanically. Then ship real software under it and see whether it holds.
+
+```mermaid
+flowchart LR
+  I["Ironclad<br/>the standard"]
+  C["cladding<br/>the enforcer"]
+  L["LogcatOn<br/>the product"]
+  I -->|"first L4 implementation"| C
+  C -->|"built and shipped through it"| L
+```
+
+Three artifacts, one argument. A standard nobody applies proves nothing—so **cladding** implements **Ironclad** and runs the gate on itself, and **LogcatOn** is a real product that went out through it.
+
+> _"Exploits are written by code. Defenses should be too."_
+
+## Work
+
+### [cladding](https://github.com/qwerfunch/cladding)
+
+**An integrity layer for AI-coded software.** Before an agent writes, cladding supplies the project's intent. After it works, cladding checks the result against the spec—drift, tests, architecture, evidence. It runs the same gate on itself.
+
+<sub>Open source · TypeScript · works with Claude Code, Codex, Gemini, Antigravity, and Cursor</sub>
+
+### [LogcatOn](https://qwerfunch.github.io/logcat-on-releases/)
+
+**Pick your app—the noise disappears.** Bind to a package and LogcatOn follows its PID, re-binding on its own when the app restarts. Crashes, ANRs, native faults, and lifecycle events surface as signals rather than text, and sessions stay smooth well past a million lines.
+
+As more Android code gets written by agents, the log is where you find out what the app actually did.
+
+<sub>Desktop app · macOS, Windows, Linux · free · [Releases](https://github.com/qwerfunch/logcat-on-releases/releases)</sub>
+
+### [Ironclad](https://github.com/qwerfunch/ironclad)
+
+**A graded standard for falsifiable consistency among spec, code, and tests.** Four levels, from static checks to human-in-the-loop audit—each one attemptable only once the level below it has passed.
+
+<sub>Draft · MIT · first L4 implementation: cladding</sub>
+
+## Focus
 
 - **Security R&D** — Reverse engineering, Android security, RASP, and code protection.
 - **AI agents** — Multi-agent orchestration, agent architecture, context engineering, and workflow design.
 - **Autonomous systems** — Autonomous VAPT, intelligent threat modeling, specification-driven development, and system-level verification.
 
-## Flagship Open System
+## Elsewhere
 
-### [cladding →](https://github.com/qwerfunch/cladding)
-
-**An integrity layer for AI-coded software.**
-
-Before host agents write, cladding supplies the project's intent. After they work, it checks the result for drift, tests, architecture, and evidence. The goal is simple: turn _“done”_ from a claim into something that can be verified.
-
-[Explore cladding](https://github.com/qwerfunch/cladding) · [Read the Ironclad standard](https://github.com/qwerfunch/ironclad)
-
-## Related Open Work
-
-- **[Ironclad](https://github.com/qwerfunch/ironclad)** — A graded standard for provable consistency among specs, code, and tests.
 - **[harness-boot](https://github.com/qwerfunch/harness-boot)** — A role-focused multi-agent development harness built around living specifications.
-- **[LogcatOn](https://github.com/qwerfunch/logcat-on-releases)** — A high-performance Android logcat viewer for macOS, Windows, and Linux.
-
-## Current Research Direction
-
-> **Research question:** How can autonomous security agents act with enough traceability, containment, and proof to be trusted?
-
-My long-term direction is **Autonomous Defense**: systems that do more than automate a checklist—they observe, reason, act within boundaries, and leave evidence behind.
-
-> _“Exploits are written by code. Defenses should be too.”_
-
-<details>
-<summary><strong>Open the lab console</strong></summary>
-
-```text
-$ ./research-loop --status
-
-observe      reverse engineering + runtime signals
-model        threats + system intent
-orchestrate  focused agents
-verify       drift + tests + evidence
-
-status       building
-side_quest   cosmic-suika
-```
-
-Off-duty experiment: **[Cosmic Suika](https://github.com/qwerfunch/cosmic-suika-pages)** — a 3D space-themed merge game with orbital physics.
-
-</details>
+- **[Cosmic Suika](https://github.com/qwerfunch/cosmic-suika-pages)** — Off-duty: a 3D space-themed merge game with orbital physics.
 
 ## Contact
 
