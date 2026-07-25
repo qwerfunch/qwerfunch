@@ -20,14 +20,11 @@ I lead security R&D—reverse engineering, Android runtime analysis, RASP, code 
 
 **The bet.** Define consistency precisely enough that it can be falsified. Build something that enforces it mechanically. Then ship real software under it and see whether it holds.
 
-```mermaid
-flowchart LR
-  I["Ironclad<br/>the standard"]
-  C["cladding<br/>the enforcer"]
-  L["LogcatOn<br/>the product"]
-  I -->|"first L4 implementation"| C
-  C -->|"built and shipped through it"| L
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
+  <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="./assets/stack-light.svg">
+  <img src="./assets/stack-light.svg" width="100%" alt="Ironclad, the standard — first L4 implementation — cladding, the enforcer — built and shipped through it — LogcatOn, the product">
+</picture>
 
 Three artifacts, one argument. A standard nobody applies proves nothing—so **cladding** implements **Ironclad** and runs the gate on itself, and **LogcatOn** is a real product that went out through it.
 
