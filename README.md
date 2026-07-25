@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-light.svg" width="100%" alt="Jungsoo Kim, Ph.D. — Security R&amp;D Lead. Autonomous systems that have to prove what they did.">
+  <img src="./assets/hero-light.svg" width="100%" alt="Jungsoo Kim, Ph.D. — Security R&amp;D Lead">
 </picture>
 
 <p align="center">

@@ -1,18 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 160" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 172" role="img" aria-labelledby="title">
   <title id="title">Jungsoo Kim, Ph.D. — Security R&amp;D Lead</title>
-  <desc id="desc">Autonomous systems that have to prove what they did.</desc>
 
-  <rect x="1" y="1" width="958" height="158" rx="20" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+  <rect x="0" y="10" width="60" height="5" rx="2.5" fill="#2dd4bf"/>
+  <rect x="68" y="10" width="60" height="5" rx="2.5" fill="#a78bfa"/>
+  <rect x="136" y="10" width="60" height="5" rx="2.5" fill="#f59e0b"/>
 
-  <rect x="48" y="22" width="60" height="4" rx="2" fill="#2dd4bf"/>
-  <rect x="114" y="22" width="60" height="4" rx="2" fill="#a78bfa"/>
-  <rect x="180" y="22" width="60" height="4" rx="2" fill="#f59e0b"/>
-
-  <text x="48" y="90" fill="#f0f6fc" font-family="sans-serif" font-size="48" font-weight="700">Jungsoo Kim, Ph.D.</text>
-  <text x="51" y="120" fill="#a78bfa" font-family="monospace" font-size="16" font-weight="700" letter-spacing="1.6">SECURITY R&amp;D LEAD</text>
-
-  <path d="M556 50V130" fill="none" stroke="#30363d" stroke-width="1"/>
-
-  <text x="584" y="83" fill="#c9d1d9" font-family="sans-serif" font-size="19">Autonomous systems that have to</text>
-  <text x="584" y="111" fill="#c9d1d9" font-family="sans-serif" font-size="19">prove what they did.</text>
+  <text x="0" y="112" font-family="sans-serif" font-size="88" font-weight="700" fill="#f0f6fc">Jungsoo Kim<tspan fill="#6e7681" font-weight="400">, Ph.D.</tspan></text>
+  <text x="3" y="152" font-family="monospace" font-size="16" font-weight="700" fill="#a78bfa" letter-spacing="1.8">SECURITY R&amp;D LEAD</text>
 </svg>
