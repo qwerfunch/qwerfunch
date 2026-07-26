@@ -50,7 +50,7 @@ That is one answer to one part of the question. The rest is still open.
 
 ### [LogcatOn](https://qwerfunch.github.io/logcat-on-releases/)
 
-**The log is where you find out what an app actually did**—and as more of the code is written by agents, that matters more. LogcatOn makes it legible: bind to a package and it follows the PID, re-binding on its own when the app restarts. Crashes, ANRs, and native faults land on the minimap and timeline the moment they happen, one click from the line that caused them, and sessions stay smooth well past a million lines.
+**The log is where you find out what an app actually did**—and as more of the code is written by agents, that matters more. LogcatOn makes it legible: bind to a package and it follows the PID, re-binding on its own when the app restarts. Crashes, ANRs, and native faults land on the minimap and timeline the moment they happen, one click from the line that caused them, and sessions stay smooth into the hundreds of thousands of lines.
 
 <sub>Desktop app · macOS, Windows, Linux · free · [Releases](https://github.com/qwerfunch/logcat-on-releases/releases)</sub>
 
