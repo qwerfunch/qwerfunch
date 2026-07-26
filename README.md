@@ -50,9 +50,7 @@ That is one answer to one part of the question. The rest is still open.
 
 ### [LogcatOn](https://qwerfunch.github.io/logcat-on-releases/)
 
-**Pick your app—the noise disappears.** Bind to a package and LogcatOn follows its PID, re-binding on its own when the app restarts. Crashes, ANRs, native faults, and lifecycle events surface as signals rather than text, and sessions stay smooth well past a million lines.
-
-As more Android code gets written by agents, the log is where you find out what the app actually did.
+**The log is where you find out what an app actually did**—and as more of the code is written by agents, that matters more. LogcatOn makes it legible: bind to a package and it follows the PID, re-binding on its own when the app restarts. Crashes, ANRs, and native faults land on the minimap and timeline the moment they happen, one click from the line that caused them, and sessions stay smooth well past a million lines.
 
 <sub>Desktop app · macOS, Windows, Linux · free · [Releases](https://github.com/qwerfunch/logcat-on-releases/releases)</sub>
 
