@@ -18,9 +18,9 @@ I lead **security R&D** and research **AI** alongside it.
 
 ## Research Program
 
-The AI question I keep returning to is a plain one: how do people get genuinely useful work out of these systems? Speed turned out to be the easy part. Knowing whether what came back was right did not follow from it, and that gap is where I started.
+The AI question I keep returning to is a plain one: how do people get genuinely useful work out of these systems? Writing code got fast. Knowing whether the code does what you asked did not, and that is where I started.
 
-The method is easy to state — write the intent down precisely enough that a machine can check the code against it, then build the machine that checks. The third step is the one that costs something: run it on real software, where being wrong means a shipped product rather than a red test.
+So: write the intent down precisely enough that a machine can check the code against it, build that checker, then use it on software where being wrong costs more than a red test.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
@@ -28,7 +28,7 @@ The method is easy to state — write the intent down precisely enough that a ma
   <img src="./assets/stack-light.svg" width="100%" alt="Ironclad, the standard — first L4 implementation — cladding, the enforcer — built and shipped through it — LogcatOn, the product">
 </picture>
 
-A standard nobody applies proves nothing. So cladding turns Ironclad on itself before it claims anything, and LogcatOn — an ordinary desktop app on three platforms — was built through that gate rather than around it. None of the three would carry the argument alone.
+A standard nobody applies proves nothing. cladding runs the gate on itself, and LogcatOn was built through that gate rather than around it. The argument needs all three.
 
 ## Work
 
