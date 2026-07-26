@@ -12,7 +12,7 @@
   <a href="#contact">Contact</a>
 </p>
 
-I lead **security R&D** and research **AI** alongside it. The public work below is all from the AI side.
+I lead **security R&D** and research **AI** alongside it.
 
 ## Research Program
 
@@ -58,7 +58,7 @@ As more Android code gets written by agents, the log is where you find out what 
 
 ## Focus
 
-- **Security R&D** — VAPT, reverse engineering, Android runtime analysis, RASP, and code protection. Day work; none of it public.
+- **Security R&D** — VAPT, reverse engineering, Android runtime analysis, RASP, and code protection.
 - **AI** — Multi-agent orchestration, agent architecture, context engineering, workflow design, and specification-driven verification.
 
 ## Elsewhere
