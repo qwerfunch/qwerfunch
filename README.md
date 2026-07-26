@@ -32,8 +32,6 @@ Speed turned out to be the easy part. Knowing whether what came back is right is
 
 Three artifacts, one argument. A standard nobody applies proves nothing—so **cladding** implements **Ironclad** and runs the gate on itself, and **LogcatOn** is a real product that went out through it.
 
-That is one answer to one part of the question. The rest is still open.
-
 ## Work
 
 ### [Ironclad](https://github.com/qwerfunch/ironclad)
