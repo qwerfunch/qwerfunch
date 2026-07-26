@@ -28,7 +28,7 @@ So: write down what the software is supposed to do in a form a machine can read,
   <img src="./assets/stack-light.svg" width="100%" alt="Ironclad, the standard — implemented by cladding, the enforcer — used to build LogcatOn, the product">
 </picture>
 
-Ironclad defines the levels. cladding implements every stage and detector the spec defines, adds its own on top, and runs them over its own agent-written code. LogcatOn is the first product built with it.
+Ironclad defines the levels. cladding implements every stage and detector the spec defines, adds its own on top, and gates its own development with them. LogcatOn is the first product built with it.
 
 ## Work
 
