@@ -20,7 +20,7 @@ I lead **security R&D** and research **AI** alongside it.
 
 The AI question I keep returning to is a plain one: how do people get genuinely useful work out of these systems? Writing code got fast. Knowing whether the code does what you asked did not, and that is where I started.
 
-So: write the intent down precisely enough that a machine can check the code against it, build that checker, then use it on software where being wrong costs more than a red test.
+So: write down what the software is supposed to do in a form a machine can read, then have a machine check the code against it and fail the build when intent and reality diverge.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
