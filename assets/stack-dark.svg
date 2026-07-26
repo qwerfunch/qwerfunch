@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 110" role="img" aria-labelledby="t">
-  <title id="t">Ironclad, the standard — first L4 implementation — cladding, the enforcer — built and shipped through it — LogcatOn, the product</title>
+  <title id="t">Ironclad, the standard — implemented by cladding, the enforcer — used to build LogcatOn, the product</title>
   <g font-family="monospace" font-size="11" font-weight="600" fill="#6e7681" letter-spacing="1" text-anchor="middle">
-    <text x="268" y="30">FIRST L4 IMPLEMENTATION</text>
-    <text x="690" y="30">BUILT AND SHIPPED THROUGH IT</text>
+    <text x="268" y="30">IMPLEMENTED BY</text>
+    <text x="690" y="30">USED TO BUILD</text>
   </g>
   <g fill="none" stroke="#6e7681" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
     <path d="M138 48H392"/><path d="m386 43 6 5-6 5"/>

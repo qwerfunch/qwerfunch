@@ -25,10 +25,10 @@ So: write down what the software is supposed to do in a form a machine can read,
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
   <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="./assets/stack-light.svg">
-  <img src="./assets/stack-light.svg" width="100%" alt="Ironclad, the standard — first L4 implementation — cladding, the enforcer — built and shipped through it — LogcatOn, the product">
+  <img src="./assets/stack-light.svg" width="100%" alt="Ironclad, the standard — implemented by cladding, the enforcer — used to build LogcatOn, the product">
 </picture>
 
-On its own, Ironclad would just be a document. cladding is the proof it can be implemented, and it holds itself to the standard it defines. LogcatOn is the proof it works on a product people actually use.
+Ironclad defines the levels. cladding implements them — the spec's 13 stages and 19 detectors, plus extensions of its own — and gates its own commits with them. LogcatOn is the first product built with it.
 
 ## Work
 
@@ -40,7 +40,7 @@ On its own, Ironclad would just be a document. cladding is the proof it can be i
 
 ### [cladding](https://github.com/qwerfunch/cladding)
 
-**An integrity layer for AI-coded software.** Before an agent writes, cladding supplies the project's intent. After it works, cladding checks the result against the spec—drift, tests, architecture, evidence. It runs the same gate on itself.
+**An integrity layer for AI-coded software.** Before an agent writes, cladding supplies the project's intent. After it works, cladding checks the result against the spec—drift, tests, architecture, evidence.
 
 <sub>Open source · TypeScript · works with Claude Code, Codex, Gemini, Antigravity, and Cursor</sub>
 
