@@ -14,6 +14,8 @@
 
 I lead **security R&D** and research **AI** alongside it.
 
+> _"Exploits are written by AI agents. Defenses should be too."_
+
 ## Research Program
 
 The AI question I keep returning to is a plain one: **how do people get genuinely useful work out of it?**
@@ -31,8 +33,6 @@ Speed turned out to be the easy part. Knowing whether what came back is right is
 Three artifacts, one argument. A standard nobody applies proves nothing—so **cladding** implements **Ironclad** and runs the gate on itself, and **LogcatOn** is a real product that went out through it.
 
 That is one answer to one part of the question. The rest is still open.
-
-> _"Exploits are written by AI agents. Defenses should be too."_
 
 ## Work
 
