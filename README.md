@@ -12,13 +12,15 @@
   <a href="#contact">Contact</a>
 </p>
 
-I lead security R&D—reverse engineering, Android runtime analysis, RASP, code protection—and build autonomous systems on the other side of that work. Increasingly they are the same problem.
+I lead **security R&D**—VAPT, reverse engineering, Android runtime analysis, RASP, code protection—and research **AI** alongside it.
 
 ## Research Program
 
-> **The question.** How can an autonomous system—one that writes code, or one that defends it—act with enough traceability, containment, and proof to be trusted?
+The AI question I keep returning to is a plain one: **how do people get genuinely useful work out of it?**
 
-**The approach.** Define consistency precisely enough that it can be falsified. Build something that enforces it mechanically. Then ship real software under it and see whether it holds.
+Speed turned out to be the easy part. Knowing whether what came back is right is not—so verification is where I started.
+
+**The approach.** Write the intent down precisely enough that a machine can check it. Build the checker. Then ship real software through it and find out whether it holds.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
@@ -28,7 +30,9 @@ I lead security R&D—reverse engineering, Android runtime analysis, RASP, code 
 
 Three artifacts, one argument. A standard nobody applies proves nothing—so **cladding** implements **Ironclad** and runs the gate on itself, and **LogcatOn** is a real product that went out through it.
 
-> _"Exploits are written by code. Defenses should be too."_
+That is one answer to one part of the question. The rest is still open.
+
+> _"Exploits are written by AI agents. Defenses should be too."_
 
 ## Work
 
