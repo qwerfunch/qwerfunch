@@ -28,7 +28,7 @@ So: write down what the software is supposed to do in a form a machine can read,
   <img src="./assets/stack-light.svg" width="100%" alt="Ironclad, the standard — first L4 implementation — cladding, the enforcer — built and shipped through it — LogcatOn, the product">
 </picture>
 
-A standard nobody applies proves nothing. cladding runs the gate on itself, and LogcatOn was built through that gate rather than around it. The argument needs all three.
+On its own, Ironclad would just be a document. cladding is the proof it can be implemented, and it holds itself to the standard it defines. LogcatOn is the proof it works on a product people actually use.
 
 ## Work
 
