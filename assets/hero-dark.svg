@@ -1,10 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 172" role="img" aria-labelledby="title">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 230" role="img" aria-labelledby="title">
   <title id="title">Jungsoo Kim, Ph.D. — Security R&amp;D Lead</title>
 
-  <rect x="0" y="10" width="60" height="5" rx="2.5" fill="#2dd4bf"/>
-  <rect x="68" y="10" width="60" height="5" rx="2.5" fill="#a78bfa"/>
-  <rect x="136" y="10" width="60" height="5" rx="2.5" fill="#f59e0b"/>
+  <rect x="1" y="1" width="958" height="228" rx="14" fill="#010409" stroke="#30363d" stroke-width="2"/>
+  <path d="M1 52H959" fill="none" stroke="#30363d" stroke-width="1"/>
+  <circle cx="32" cy="27" r="5" fill="#2dd4bf"/>
+  <circle cx="52" cy="27" r="5" fill="#a78bfa"/>
+  <circle cx="72" cy="27" r="5" fill="#f59e0b"/>
+  <text x="480" y="32" text-anchor="middle" font-family="monospace" font-size="12" fill="#6e7681" letter-spacing="1.4">qwerfunch — research shell</text>
 
-  <text x="0" y="112" font-family="sans-serif" font-size="88" font-weight="700" fill="#f0f6fc">Jungsoo Kim<tspan fill="#6e7681" font-weight="400">, Ph.D.</tspan></text>
-  <text x="3" y="152" font-family="monospace" font-size="16" font-weight="700" fill="#a78bfa" letter-spacing="1.8">SECURITY R&amp;D LEAD</text>
+  <g font-family="monospace">
+    <text x="34" y="100" font-size="14" fill="#8b949e"><tspan fill="#2dd4bf">$</tspan> whoami</text>
+    <text x="34" y="150" font-size="34" font-weight="700" fill="#f0f6fc">Jungsoo Kim<tspan fill="#6e7681" font-weight="400">, Ph.D.</tspan></text>
+    <text x="34" y="184" font-size="14" font-weight="700" fill="#a78bfa" letter-spacing="1.6">SECURITY R&amp;D LEAD</text>
+    <text x="34" y="212" font-size="14" fill="#2dd4bf">$ <tspan fill="#3fb950">▊</tspan></text>
+  </g>
 </svg>

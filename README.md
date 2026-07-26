@@ -18,7 +18,7 @@ I lead security R&D—reverse engineering, Android runtime analysis, RASP, code 
 
 > **The question.** How can an autonomous system—one that writes code, or one that defends it—act with enough traceability, containment, and proof to be trusted?
 
-**The bet.** Define consistency precisely enough that it can be falsified. Build something that enforces it mechanically. Then ship real software under it and see whether it holds.
+**The approach.** Define consistency precisely enough that it can be falsified. Build something that enforces it mechanically. Then ship real software under it and see whether it holds.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
@@ -31,6 +31,12 @@ Three artifacts, one argument. A standard nobody applies proves nothing—so **c
 > _"Exploits are written by code. Defenses should be too."_
 
 ## Work
+
+### [Ironclad](https://github.com/qwerfunch/ironclad)
+
+**A graded standard for falsifiable consistency among spec, code, and tests.** Four levels, from static checks to human-in-the-loop audit—each one attemptable only once the level below it has passed.
+
+<sub>Draft · MIT</sub>
 
 ### [cladding](https://github.com/qwerfunch/cladding)
 
@@ -45,12 +51,6 @@ Three artifacts, one argument. A standard nobody applies proves nothing—so **c
 As more Android code gets written by agents, the log is where you find out what the app actually did.
 
 <sub>Desktop app · macOS, Windows, Linux · free · [Releases](https://github.com/qwerfunch/logcat-on-releases/releases)</sub>
-
-### [Ironclad](https://github.com/qwerfunch/ironclad)
-
-**A graded standard for falsifiable consistency among spec, code, and tests.** Four levels, from static checks to human-in-the-loop audit—each one attemptable only once the level below it has passed.
-
-<sub>Draft · MIT · first L4 implementation: cladding</sub>
 
 ## Focus
 
